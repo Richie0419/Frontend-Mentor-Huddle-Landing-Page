@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 4rem;
+}
+
+.try-btn{
+    border-radius: 50px;
+    border: none;
+    padding: 0.8rem 4rem;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
+    color: hsl(192, 100%, 9%);
+}
+
+.try-btn:hover{
+    background-color: hsl(322, 100%, 66%);
+    transform: scale(1.05);
+}
+
+section{
+   padding: 5rem;
+}
+
+.content{
+    display: flex;
+}
+
+.text-content h1{
+    font-size: 3.5rem;
+}
+
+.text-content p{
+    width: 75%;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: hsl(192, 100%, 9%);
+    line-height: 1.4;
+}
+
+.get-btn{
+    margin-top: 1.5rem;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 3px 6px 4px rgba(243, 27, 164, 0.3);
+}
+
+.get-btn:hover{
+    background-color: hsl(208, 11%, 55%);
+    transform: scale(1.05);
+}
+
+.image-content img{
+    width: 100%;
+}
+
+.content-container{
+    background-color: #fff;
+}
+
+.box-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 3px  1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.box img{
+    width: 25%;
+}
+
+.box-1,
+.box-2,
+.box-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+.text{
+    width: 35%;
+}
+
+.text h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+}
+
+.text p{
+    line-height: 1.5;
+    color: hsl(208, 11%, 55%);
+}
+
+.container-box{
+    background-color: #fff;
+    position: relative;
+}
+
+.com-box{
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    background-color: #fff;
+    text-align: center;
+    width: 40%;
+    padding: 2.5rem 0;
+    margin: auto;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.get-btn2{
+    margin-top: 1.5rem;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(193, 100%, 96%);
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 3px 6px 4px rgba(243, 27, 164, 0.3);
+}
+
+footer{
+    padding: 2rem 4rem;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.logo{
+    color: hwb(192 92% 0%);
+    font-size: 1.9rem;
+    margin-top: 2.5rem;
+    margin-left: 1.8rem;
+}
+
+.list{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.list p{
+    margin-top: -1.4rem;
+    color: hsl(193, 100%, 96%);
+    width: 30%;
+    line-height: 1.4;
+}
+
+.list p{
+    margin-left: 2rem;
+}
+
+.footer-menu{
+    display: flex;
+    margin-left: 27rem;
+    margin-top: -9.5rem;
+}
+
+.menu-list{
+   margin:0 3rem;
+   color: hsl(193, 100%, 96%);
+}
+
+.menu-list p:hover{
+    text-decoration: underline;
+}
+
+.menu-list p{
+    margin: 1rem;
+}
+
+.menu-list p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.social-media img{
+    padding: 0.3rem;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.social-media img:hover{
+   background-color: hsl(322, 100%, 66%);
+}
+
+.copy{
+    color: hsl(193, 100%, 96%);
+    margin-top: 8rem;
+    width: 100%;
+}
+
+@media only screen and (max-width:834px){
+    header{
+        padding: 2rem;
+    }
+
+    header img{
+        width: 25%;
+        height: 20%;
+    }
+
+    section{
+        width: 100%;
+        padding-left: 2rem;
+    }
+
+    .image-content img{
+        width: 120%;
+    }
+
+    .text-content h1{
+        font-size: 2.3rem;
+    }
+
+    .text-content p{
+        font-size: 1.4rem;
+        width: 90%;
+    }
+
+    .box{
+        margin: auto 1.5rem;
+        width: 100%;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3{
+        padding: 2rem 0;
+    }
+
+    .box img{
+        width: 40%;
+    }
+
+    .com-box{
+        width: 60%;
+        left: 22%;
+    }
+
+    .com-box h3{
+        font-size: 1.5rem;
+    }
+
+    footer{
+        padding: 2.5rem;
+    }
+
+    .logo{
+        margin-top: 5rem;
+    }
+
+    .footer-menu{
+        display: flex;
+        margin-left: 14rem;
+    }
+
+    .menu-list{
+        margin-right: 0.9rem;
+    }
+
+    .menu-list p{
+        width: 150%;
+    }
+
+    .social-media{
+        margin-left: -1.5rem;
+    }
+
+    .social-media img{
+        margin: 0.2rem;
+    }
+
+    .social-media p{
+        width: 200px;
+        margin-left: -5rem;
+    }
+}
+
+@media only screen and (max-width:430px){
+    header{
+        align-items: center;
+    }
+
+    header img{
+        width: 35%;
+    }
+
+    .try-btn{
+        padding: 0.5rem 1.2rem;
+    }
+
+    .content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content h1{
+        font-size: 1.90rem;
+        line-height: 1.5;
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+
+    .text-content p{
+        width: 110%;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .get-btn{
+        padding: 1rem 2.3rem;
+        margin-left: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .image-content img{
+        width: 115%;
+    }
+
+    .text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .text h2{
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .text p{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .box{
+        width: 105%;
+    }
+
+    .box-2{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .box-1,
+    .box-3{
+        flex-direction: column-reverse;
+        padding: 1.5rem;
+    }
+
+    .box-1 img,
+    .box-2 img,
+    .box-3 img{
+        margin: auto;
+        width: 80%;
+    }
+
+    .com-box{
+        left: 0;
+        padding: 0;
+        height: 120%;
+    }
+
+    .com-box h3{
+        margin-top: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .get-btn-2{
+        width: 80%;
+        margin-left: 0.5rem;
+    }
+
+    .list{
+        width: 260%;
+    }
+
+    .com-box{
+        width: 93%;
+        left: 3.5%;
+    }
+
+    footer{
+        padding:4rem 1rem;
+    }
+
+    .footer-menu{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .menu-list{
+        margin-left: -15rem;
+    }
+
+    .social-media{
+        margin-left: -5rem;
+        margin-top: 1.5rem;
+    }
+
+   .social-media p{
+        margin-top: 1rem;
+        width: 180%;
+        margin-left: -8.5rem;
+   }
+    
+}
